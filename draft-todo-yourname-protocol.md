@@ -19,39 +19,39 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
-category: info
 
-docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
-number:
-date:
-consensus: true
+---
+title: Expanding the IPv6 Documentation Space
+abbrev: Expanding the IPv6 Documentation Space
+docname: draft-ghnb-v6ops-rfc3849-update-00
 v: 3
-area: AREA
-workgroup: WG Working Group
-keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
-venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+submissiontype: IETF
+cat: std
+ipr: trust200902
+area: Int
+wg: V6OPS
+kw: Internet-Draft
+updates: 3849
 
 author:
- -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+      -
+        ins: G. Huston
+        name: Geoff Huston
+        org: APNIC
+        email: gih@apnic.net
+      -
+        ins: N. Buraglio
+        name: Nick Buraglio
+        org: Energy Sciences Network
+        email: buraglio@forwardingplane.net
+
+      
 
 normative:
-
-informative:
+  RFC2119:
+  RFC8200:   
+informative: 
+  RFC3849:
 
 
 --- abstract
