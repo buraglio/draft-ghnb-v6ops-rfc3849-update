@@ -1,0 +1,3 @@
+# Automatically generated CODEOWNERS
+# Regenerate with `make update-codeowners`
+draft-ghnb-v6ops-rfc3849-update.md gih@apnic.net buraglio@forwardingplane.net
