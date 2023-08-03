@@ -1,7 +1,7 @@
 ---
 title: Expanding the IPv6 Documentation Space
 abbrev: Expanding the IPv6 Documentation Space
-docname: draft-ghnb-v6ops-rfc3849-update-00
+docname: draft-ghnb-v6ops-rfc3849-update-latest
 v: 3
 submissiontype: IETF
 cat: std
