@@ -6,7 +6,7 @@ v: 3
 submissiontype: IETF
 cat: std
 ipr: trust200902
-area: Int
+area: "Operations and Management"
 wg: V6OPS
 kw: Internet-Draft
 updates: 3849
