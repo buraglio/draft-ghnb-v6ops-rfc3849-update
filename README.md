@@ -1,4 +1,4 @@
-# Internet-Draft Template Repository
+# Update to RFC 3849
 
 Use this repository as a template if you want to start working on
 [IETF](https://www.ietf.org/) documents.
