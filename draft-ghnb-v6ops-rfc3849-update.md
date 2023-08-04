@@ -25,13 +25,13 @@ author:
 
 normative:
   RFC2119:
-  RFC8200:
+#  RFC8200:
 informative:
   RFC3849:
 
 --- abstract
 
-As the global deployment of IPv6 exapands and evolves, the need for larger, more flexible documentation address space has become a notable requirement for documenting larger, more complex deployments.
+As the global deployment of IPv6 expands and evolves, the need for larger, more flexible documentation address space has become a notable requirement for documenting the increasingly common large, more complex deployments.
 
 --- middle
 
@@ -80,3 +80,4 @@ This document has no IANA actions.
 
 # Acknowledgments
 {:numbered="false"}
+The authors would like to acknowledge the valuable input from Ed Horley, Tom Coffeen, and Scott Hogg
