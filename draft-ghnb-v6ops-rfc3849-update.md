@@ -4,7 +4,7 @@ abbrev: Expanding the IPv6 Documentation Space
 docname: draft-ghnb-v6ops-rfc3849-update-latest
 v: 3
 submissiontype: IETF
-cat: std
+cat: informational
 ipr: trust200902
 area: "Operations and Management"
 wg: V6OPS
@@ -31,38 +31,49 @@ informative:
 
 --- abstract
 
-As the global deployment of IPv6 expands and evolves, the need for larger, more flexible documentation address space has become a notable requirement for documenting the increasingly common large, more complex deployments.
+The document desribes the reservation of an additional IPv6 address prefix
+for use in documentation. The reservation of a /20 prefix allows documented
+examples to reflect a broader range of realistic current deployment
+scenarios.
 
 --- middle
 
 # Introduction
 
-{{RFC3849}} introduced 2001:db8::/32 describes the use of the IPv6
-address prefix 2001:DB8::/32 as a reserved prefix for use in
-documentation. With the rapid expansion of IPv6 production deployments since the assignment of this prefix, it has become increasingly obvious that a larger selection of reserved address space is required to address the ever-increasing sizes of RIR allocations.
+{{RFC3849}} introduced 2001:db8::/32, describing the use of the IPv6 address
+prefix 2001:DB8::/32 as a reserved prefix for use in documentation. The
+rationale for this reservation was to reduce the likelihood of conflict and
+confusion when relating documented examples to deployed systems.
 
-# Current state
+As the global deployment of IPv6 expands and evolves, individual IPv6
+network deployment scenarios have also increased is size and diversity, and
+there is a requirement for documentation to reflect this increased diversity
+and scope. The original 2001:DB8::/32 reservation is inadequate to describe
+many realistic current deployment scenarios.
 
-The largest assignments made to end users have been /19s. In the foreseeable future its unlikely that this will be repeated anytime soon, so a reservation of a /20 would cover documentation of the very largest of the known deployments.
+Without this additional address allocation, then documentation address
+prefixes are drawn from address blocks already allocated or assigned to
+existing organizations or to well known ISPs, or drawn from the currently
+unallocated address pool. Such use conflicts with existing or future
+allocations or assignments of IPv6 address space. The reservation of a
+further /20 address prefix for documentation purposes avoids such conflicts.
 
-~~~~~~~~~~
-RIR IPV6 ALLOCATIONS
- number size
-      4 /19
-     24 /20
-     13 /21
-     36 /22
-      7 /23
-     64 /24
-      9 /25
-     18 /26
-     22 /27
-    168 /28
-  15551 /29
-    186 /30
-    150 /31
-  30530 /32
-~~~~~~~~~~
+# Current Assignment and Alloication Data
+
+According to the allocation and assignment data published by the Regional
+Internet Registries,
+(https://ftp.ripe.net/pub/stats/ripencc/nro-stats/latest/nro-delegated-stats),
+in August 2023 some 25.9% of all 62,770 recorded allocations and
+assignments are larger than a /32 in size. The most common allocation or
+assignment size is a /29, used in 24.8% of cases.
+
+The four largest assignments made to end users have been /19s, but these
+allocations were made before the RIRs' address allocation policies moved
+away from the use of a fixed /48 site address prefix IPv6 address assignment
+policies, and in the foreseeable future its unlikely that individual
+networks require more than a /20. It is believed that a reservation of a /20
+would cover the documentation needs as they relate the broad range of
+realistic network deployments.
 
 # Conventions and Definitions
 
@@ -70,11 +81,15 @@ RIR IPV6 ALLOCATIONS
 
 # Security Considerations
 
-TODO Security
+IPv6 addressing documents do not have any direct impact on Internet
+infrastructure security.
 
 # IANA Considerations
 
-This document has no IANA actions.
+IANA is to record the reservation of [TBD::/20] in the IANA IPv6
+Special-Purpose Address Registry. The Source, Destination, Forwardable,
+Globally Reachable and Reserved-by-Protocol fields should be recorded as
+False. There is no Termination Date for this entry.
 
 --- back
 
