@@ -31,7 +31,7 @@ informative:
 
 --- abstract
 
-The document desribes the reservation of an additional IPv6 address prefix
+The document describes the reservation of an additional IPv6 address prefix
 for use in documentation. The reservation of a /20 prefix allows documented
 examples to reflect a broader range of realistic current deployment
 scenarios.
@@ -58,7 +58,7 @@ unallocated address pool. Such use conflicts with existing or future
 allocations or assignments of IPv6 address space. The reservation of a
 further /20 address prefix for documentation purposes avoids such conflicts.
 
-# Current Assignment and Alloication Data
+# Current Assignment and Allocation Data
 
 According to the allocation and assignment data published by the Regional
 Internet Registries,
@@ -95,4 +95,4 @@ False. There is no Termination Date for this entry.
 
 # Acknowledgments
 {:numbered="false"}
-The authors would like to acknowledge the valuable input from Ed Horley, Tom Coffeen, and Scott Hogg
+The authors would like to acknowledge the valuable input from Xipeng Xiao, Chris Cummings, Russ White, Kevin Myers, Ed Horley, Tom Coffeen, and Scott Hogg
