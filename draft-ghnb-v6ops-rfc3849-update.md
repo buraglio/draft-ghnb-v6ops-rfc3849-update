@@ -86,7 +86,7 @@ infrastructure security.
 
 # IANA Considerations
 
-IANA is to record the reservation of [TBD::/20] in the IANA IPv6
+IANA is to record the reservation of TBD::/20 in the IANA IPv6
 Special-Purpose Address Registry. The Source, Destination, Forwardable,
 Globally Reachable and Reserved-by-Protocol fields should be recorded as
 False. There is no Termination Date for this entry.
