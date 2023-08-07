@@ -4,7 +4,7 @@ abbrev: Expanding the IPv6 Documentation Space
 docname: draft-ghnb-v6ops-rfc3849-update-latest
 v: 3
 submissiontype: IETF
-cat: informational
+cat: info
 ipr: trust200902
 area: "Operations and Management"
 wg: V6OPS
