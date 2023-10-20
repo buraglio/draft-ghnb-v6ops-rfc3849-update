@@ -6,11 +6,11 @@ V6OPS                                                          G. Huston
 Internet-Draft                                                     APNIC
 Updates: 3849 (if approved)                                  N. Buraglio
 Intended status: Informational                   Energy Sciences Network
-Expires: 11 February 2024                                 10 August 2023
+Expires: 22 April 2024                                   20 October 2023
 
 
                  Expanding the IPv6 Documentation Space
-                 draft-ghnb-v6ops-rfc3849-update-latest
+                 draft-ietf-v6ops-rfc3849-update-latest
 
 Abstract
 
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 February 2024.
+   This Internet-Draft will expire on 22 April 2024.
 
 Copyright Notice
 
