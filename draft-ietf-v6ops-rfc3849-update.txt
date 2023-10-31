@@ -6,7 +6,7 @@ V6OPS                                                          G. Huston
 Internet-Draft                                                     APNIC
 Updates: 3849 (if approved)                                  N. Buraglio
 Intended status: Informational                   Energy Sciences Network
-Expires: 22 April 2024                                   20 October 2023
+Expires: 3 May 2024                                      31 October 2023
 
 
                  Expanding the IPv6 Documentation Space
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 April 2024.
+   This Internet-Draft will expire on 3 May 2024.
 
 Copyright Notice
 
@@ -133,7 +133,8 @@ Table of Contents
    IANA is to record the reservation of TBD::/20 in the IANA IPv6
    [IANAIPv6SPAR].  The Source, Destination, Forwardable, Globally
    Reachable and Reserved-by-Protocol fields should be recorded as
-   False.  There is no Termination Date for this entry.
+   False.  There is no Termination Date for this entry.  The name of the
+   reservation is “Documentation".
 
 6.  References
 
