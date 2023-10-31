@@ -98,6 +98,7 @@ IANA is to record the reservation of TBD::/20 in the IANA IPv6
 {{IANAIPv6SPAR}}. The Source, Destination, Forwardable,
 Globally Reachable and Reserved-by-Protocol fields should be recorded as
 False. There is no Termination Date for this entry.
+The name of the reservation is “Documentation".
 
 --- back
 
