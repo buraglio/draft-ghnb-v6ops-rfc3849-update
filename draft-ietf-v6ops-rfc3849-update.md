@@ -9,6 +9,7 @@ ipr: trust200902
 area: "Operations and Management"
 wg: V6OPS
 kw: Internet-Draft
+pi: [toc, sortrefs, symrefs]
 updates: 3849
 
 author:
@@ -82,6 +83,13 @@ policies, and in the foreseeable future its unlikely that individual
 networks require more than a /20. It is believed that a reservation of a /20
 would cover the documentation needs as they relate the broad range of
 realistic network deployments.
+
+# Filtering and appropriate use
+
+Documentation prefixes are for the use or relaying configuration and documentation examples and as such
+MUST NOT be used for actual traffic, MUST NOT be  globally advertised, and SHOULD NOT be used internally for routed production traffic or other connectivity.
+Documentation prefixes should be considered bogon and filtered bidirectionally appropriately.
+
 
 # Conventions and Definitions
 
