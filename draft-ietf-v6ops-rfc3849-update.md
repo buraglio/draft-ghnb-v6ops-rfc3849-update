@@ -88,7 +88,7 @@ realistic network deployments.
 
 Documentation prefixes are for the use or relaying configuration and documentation examples and as such
 MUST NOT be used for actual traffic, MUST NOT be  globally advertised, and SHOULD NOT be used internally for routed production traffic or other connectivity.
-Documentation prefixes should be considered bogon and filtered bidirectionally appropriately.
+Documentation prefixes should be considered bogon and filtered in routing advertisements as appropriate.
 
 
 # Conventions and Definitions
