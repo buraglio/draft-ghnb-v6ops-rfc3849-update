@@ -1,0 +1,71 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2024-02-20T01:04:28.722286+00:00",
+  "repo": "buraglio/draft-ghnb-v6ops-rfc3849-update",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOKDGRZM52-FB8",
+      "title": "minor edits in unified diff format",
+      "url": "https://github.com/buraglio/draft-ghnb-v6ops-rfc3849-update/issues/1",
+      "state": "OPEN",
+      "author": "gregbo",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "```\r\n--- draft-ietf-v6ops-rfc3849-update.md\t2023-11-15 18:53:42\r\n+++ draft-ietf-v6ops-rfc3849-update.md+\t2023-11-15 19:18:46\r\n@@ -78,16 +78,16 @@\r\n \r\n The four largest assignments made to end users have been /19s, but these\r\n allocations were made before the RIRs' address allocation policies moved\r\n-away from the use of a fixed /48 site address prefix IPv6 address assignment\r\n-policies, and in the foreseeable future its unlikely that individual\r\n-networks require more than a /20. It is believed that a reservation of a /20\r\n+away from the use of fixed /48 site address prefix IPv6 address assignment\r\n+policies, and in the foreseeable future it is unlikely that individual\r\n+networks will require more than a /20. It is believed that a reservation of a /20\r\n would cover the documentation needs as they relate the broad range of\r\n realistic network deployments.\r\n \r\n # Filtering and appropriate use\r\n \r\n-Documentation prefixes are for the use or relaying configuration and documentation examples and as such\r\n-MUST NOT be used for actual traffic, MUST NOT be  globally advertised, and SHOULD NOT be used internally for routed production traffic or other connectivity.\r\n+Documentation prefixes are for the use or relaying of configuration and documentation examples. As such, they\r\n+MUST NOT be used for actual traffic, MUST NOT be globally advertised, and SHOULD NOT be used internally for routed production traffic or other connectivity.\r\n Documentation prefixes should be considered bogon and filtered in routing advertisements as appropriate.\r\n \r\n \r\n@@ -112,4 +112,4 @@\r\n \r\n # Acknowledgments\r\n {:numbered=\"false\"}\r\n-The authors would like to acknowledge the valuable input from Xipeng Xiao, Chris Cummings, Russ White, Kevin Myers, Ed Horley, Tom Coffeen, and Scott Hogg\r\n+The authors would like to acknowledge the valuable input from Xipeng Xiao, Chris Cummings, Russ White, Kevin Myers, Ed Horley, Tom Coffeen, and Scott Hogg.\r\n```",
+      "createdAt": "2023-11-16T03:31:14Z",
+      "updatedAt": "2023-11-16T03:31:14Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": []
+}
