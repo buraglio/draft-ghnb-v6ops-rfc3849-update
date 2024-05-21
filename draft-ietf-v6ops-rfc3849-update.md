@@ -112,4 +112,4 @@ The name of the reservation is “Documentation".
 
 # Acknowledgments
 {:numbered="false"}
-The authors would like to acknowledge the valuable input from Xipeng Xiao, Chris Cummings, Russ White, Kevin Myers, Ed Horley, Tom Coffeen, and Scott Hogg
+The authors would like to acknowledge the valuable input from XiPeng Xiao, Chris Cummings, Russ White, Kevin Myers, Ed Horley, Tom Coffeen, and Scott Hogg.
