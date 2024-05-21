@@ -6,7 +6,7 @@ V6OPS                                                          G. Huston
 Internet-Draft                                                     APNIC
 Updates: 3849 (if approved)                                  N. Buraglio
 Intended status: Informational                   Energy Sciences Network
-Expires: 17 May 2024                                    14 November 2023
+Expires: 22 November 2024                                    21 May 2024
 
 
                  Expanding the IPv6 Documentation Space
@@ -45,11 +45,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 May 2024.
+   This Internet-Draft will expire on 22 November 2024.
 
 Copyright Notice
 
-   Copyright (c) 2023 IETF Trust and the persons identified as the
+   Copyright (c) 2024 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -182,9 +182,9 @@ Table of Contents
 
 Acknowledgments
 
-   The authors would like to acknowledge the valuable input from Xipeng
+   The authors would like to acknowledge the valuable input from XiPeng
    Xiao, Chris Cummings, Russ White, Kevin Myers, Ed Horley, Tom
-   Coffeen, and Scott Hogg
+   Coffeen, and Scott Hogg.
 
 Authors' Addresses
 
