@@ -40,9 +40,11 @@ informative:
 --- abstract
 
 The document describes the reservation of an additional IPv6 address prefix
-for use in documentation. The reservation of a /20 prefix allows documented
-examples to reflect a broader range of realistic current deployment
-scenarios.
+for use in documentation. This update to RFC 3849 expands on the existing 2001:db8::/32
+address block with the reservation of an additional, larger prefix.
+The addition of a /20 allows documented examples to more closely reflect
+a broader range of realistic, current deployment scenarios and more closely aligns with
+contemporary allocation models for large networks.
 
 --- middle
 
