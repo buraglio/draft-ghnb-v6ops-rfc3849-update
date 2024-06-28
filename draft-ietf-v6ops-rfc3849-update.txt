@@ -6,18 +6,32 @@ V6OPS                                                          G. Huston
 Internet-Draft                                                     APNIC
 Updates: 3849 (if approved)                                  N. Buraglio
 Intended status: Informational                   Energy Sciences Network
-Expires: 22 November 2024                                    21 May 2024
+Expires: 30 December 2024                                   28 June 2024
 
 
                  Expanding the IPv6 Documentation Space
-                   draft-ietf-v6ops-rfc3849-update-02
+                 draft-ietf-v6ops-rfc3849-update-latest
 
 Abstract
 
    The document describes the reservation of an additional IPv6 address
-   prefix for use in documentation.  The reservation of a /20 prefix
-   allows documented examples to reflect a broader range of realistic
-   current deployment scenarios.
+   prefix for use in documentation.  This update to RFC 3849 expands on
+   the existing 2001:db8::/32 address block with the reservation of an
+   additional, larger prefix.  The addition of a /20 allows documented
+   examples to more closely reflect a broader range of realistic,
+   current deployment scenarios and more closely aligns with
+   contemporary allocation models for large networks.
+
+Discussion Venues
+
+   This note is to be removed before publishing as an RFC.
+
+   Discussion of this document takes place on the IPv6 Operations
+   Working Group mailing list (v6ops@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/v6ops/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/buraglio/draft-ghnb-v6ops-rfc3849-update.
 
 Status of This Memo
 
@@ -34,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 November 2024.
+   This Internet-Draft will expire on 30 December 2024.
 
 Copyright Notice
 
@@ -66,7 +80,7 @@ Table of Contents
 
 1.  Introduction
 
-   [RFC3849] introduced 2001:db8::/32, describing the use of the IPv6
+   [RFC3849] introduced 2001:DB8::/32, describing the use of the IPv6
    address prefix 2001:DB8::/32 as a reserved prefix for use in
    documentation.  The rationale for this reservation was to reduce the
    likelihood of conflict and confusion when relating documented
@@ -116,24 +130,22 @@ Table of Contents
 
 4.  Conventions and Definitions
 
-   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
-   "OPTIONAL" in this document are to be interpreted as described in
-   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
-   capitals, as shown here.
+   None.
 
 5.  Security Considerations
 
-   IPv6 addressing documents do not have any direct impact on Internet
-   infrastructure security.
+   This special use prefix should be marked as and considered [BOGON].
+   As is appropriate with bogon prefixes, packets whose src/dst belongs
+   to this prefix should be dropped and disallowed over the public
+   Internet.
 
 6.  IANA Considerations
 
    IANA is to record the reservation of TBD::/20 in the IANA IPv6
-   [IANAIPv6SPAR].  The Source, Destination, Forwardable, Globally
-   Reachable and Reserved-by-Protocol fields should be recorded as
-   False.  There is no Termination Date for this entry.  The name of the
-   reservation is “Documentation".
+   Special-Purpose Address Registry; [IANAIPv6SPAR].  The Source,
+   Destination, Forwardable, Globally Reachable and Reserved-by-Protocol
+   fields should be recorded as False.  There is no Termination Date for
+   this entry.  The name of the reservation is “Documentation".
 
 7.  References
 
@@ -144,16 +156,11 @@ Table of Contents
               <https://www.iana.org/assignments/iana-ipv6-special-
               registry/iana-ipv6-special-registry.xhtml>.
 
-   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
-              Requirement Levels", BCP 14, RFC 2119,
-              DOI 10.17487/RFC2119, March 1997,
-              <https://www.rfc-editor.org/rfc/rfc2119>.
-
-   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
-              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
-              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
-
 7.2.  Informative References
+
+   [BOGON]    "Team Cymru Bogon Guide", n.d., <https://www.team-
+              cymru.com/post/unravelling-the-mystery-of-bogons-a-senior-
+              stakeholder-and-it-professional-guide>.
 
    [NROStatsReport]
               "NRO Stats Report", n.d.,
