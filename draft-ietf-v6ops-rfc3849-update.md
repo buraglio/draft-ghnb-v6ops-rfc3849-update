@@ -25,7 +25,6 @@ author:
         email: buraglio@forwardingplane.net
 
 normative:
-  RFC2119:
   IANAIPv6SPAR:
     target: https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     title: "IANA IPv6 Special-Purpose Address Registry"
@@ -37,7 +36,7 @@ informative:
     target: https://ftp.ripe.net/pub/stats/ripencc/nro-stats/latest/nro-delegated-stats
     title: "NRO Stats Report"
   BOGON:
-    target: BOGON
+    target: https://www.team-cymru.com/post/unravelling-the-mystery-of-bogons-a-senior-stakeholder-and-it-professional-guide
     title: "Team Cymru Bogon Guide"
 
 --- abstract
@@ -102,7 +101,7 @@ None.
 
 # Security Considerations
 
-This special use prefix should be marked as and considered {{BOGON}}. As is appropriate with bogon prefixes, 
+This special use prefix should be marked as and considered {{BOGON}}. As is appropriate with bogon prefixes,
 packets whose src/dst belongs to this prefix should be dropped and disallowed over the public Internet.
 
 # IANA Considerations
