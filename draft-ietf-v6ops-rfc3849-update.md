@@ -36,6 +36,9 @@ informative:
   NROStatsReport:
     target: https://ftp.ripe.net/pub/stats/ripencc/nro-stats/latest/nro-delegated-stats
     title: "NRO Stats Report"
+  BOGON:
+    target: BOGON
+    title: "Team Cymru Bogon Guide"
 
 --- abstract
 
@@ -50,7 +53,7 @@ contemporary allocation models for large networks.
 
 # Introduction
 
-{{RFC3849}} introduced 2001:db8::/32, describing the use of the IPv6 address
+{{RFC3849}} introduced 2001:DB8::/32, describing the use of the IPv6 address
 prefix 2001:DB8::/32 as a reserved prefix for use in documentation. The
 rationale for this reservation was to reduce the likelihood of conflict and
 confusion when relating documented examples to deployed systems.
@@ -95,16 +98,16 @@ Documentation prefixes should be considered bogon and filtered in routing advert
 
 # Conventions and Definitions
 
-{::boilerplate bcp14-tagged}
+None.
 
 # Security Considerations
 
-IPv6 addressing documents do not have any direct impact on Internet
-infrastructure security.
+This special use prefix should be marked as and considered {{BOGON}}. As is appropriate with bogon prefixes, 
+packets whose src/dst belongs to this prefix should be dropped and disallowed over the public Internet.
 
 # IANA Considerations
 
-IANA is to record the reservation of TBD::/20 in the IANA IPv6
+IANA is to record the reservation of TBD::/20 in the IANA IPv6 Special-Purpose Address Registry;
 {{IANAIPv6SPAR}}. The Source, Destination, Forwardable,
 Globally Reachable and Reserved-by-Protocol fields should be recorded as
 False. There is no Termination Date for this entry.
