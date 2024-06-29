@@ -6,7 +6,7 @@ V6OPS                                                          G. Huston
 Internet-Draft                                                     APNIC
 Updates: 3849 (if approved)                                  N. Buraglio
 Intended status: Informational                   Energy Sciences Network
-Expires: 30 December 2024                                   28 June 2024
+Expires: 31 December 2024                                   29 June 2024
 
 
                  Expanding the IPv6 Documentation Space
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 December 2024.
+   This Internet-Draft will expire on 31 December 2024.
 
 Copyright Notice
 
@@ -80,8 +80,8 @@ Table of Contents
 
 1.  Introduction
 
-   [RFC3849] introduced 2001:DB8::/32, describing the use of the IPv6
-   address prefix 2001:DB8::/32 as a reserved prefix for use in
+   [RFC3849] introduced 2001:db8::/32, describing the use of the IPv6
+   address prefix 2001:db8::/32 as a reserved prefix for use in
    documentation.  The rationale for this reservation was to reduce the
    likelihood of conflict and confusion when relating documented
    examples to deployed systems.
@@ -89,7 +89,7 @@ Table of Contents
    As the global deployment of IPv6 expands and evolves, individual IPv6
    network deployment scenarios have also increased is size and
    diversity, and there is a requirement for documentation to reflect
-   this increased diversity and scope.  The original 2001:DB8::/32
+   this increased diversity and scope.  The original 2001:db8::/32
    reservation is inadequate to describe many realistic current
    deployment scenarios.
 
