@@ -52,15 +52,15 @@ contemporary allocation models for large networks.
 
 # Introduction
 
-{{RFC3849}} introduced 2001:DB8::/32, describing the use of the IPv6 address
-prefix 2001:DB8::/32 as a reserved prefix for use in documentation. The
+{{RFC3849}} introduced 2001:db8::/32, describing the use of the IPv6 address
+prefix 2001:db8::/32 as a reserved prefix for use in documentation. The
 rationale for this reservation was to reduce the likelihood of conflict and
 confusion when relating documented examples to deployed systems.
 
 As the global deployment of IPv6 expands and evolves, individual IPv6
 network deployment scenarios have also increased is size and diversity, and
 there is a requirement for documentation to reflect this increased diversity
-and scope. The original 2001:DB8::/32 reservation is inadequate to describe
+and scope. The original 2001:db8::/32 reservation is inadequate to describe
 many realistic current deployment scenarios.
 
 Without this additional address allocation, documentation address prefixes
